@@ -31,17 +31,6 @@ const props = defineProps({
   }
 });
 
-const sizeClass = computed(() => {
-  switch (props.size) {
-    case 'small':
-      return 'text-sm';
-    case 'large':
-      return 'text-lg';
-    default:
-      return 'text-base';
-  }
-});
-
 const paddingClass = computed(() => {
   switch (props.size) {
     case 'small':

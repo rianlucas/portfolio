@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <UIHeader/>
+  <div class="bg-defaultBgColor font-mono">
+    <LayoutHeader/>
     <slot />
   </div>
 </template>
