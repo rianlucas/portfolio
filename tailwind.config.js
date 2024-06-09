@@ -13,7 +13,11 @@ export default {
       colors: {
         defaultFontColor: '#607B96',
         defaultBgColor: '#011627',
-        defaultBorderColor: '#1E2D3D'
+        defaultBorderColor: '#1E2D3D',
+        orangeAcentColor: '#FEA55F'
+      },
+      fontFamily: {
+        mono: ['Fira Code', 'monospace'],
       }
     },
   },
