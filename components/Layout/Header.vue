@@ -1,7 +1,7 @@
 <template>
     <div>
-        <header
-            class="flex items-center justify-between bg-defaultBgColor border-b border-defaultFontColor"
+        <div
+            class="flex items-center justify-between bg-defaultBgColor border-b border-defaultBorderColor"
         >
             <div class="flex">
                 <SpecificHeaderButton
@@ -14,7 +14,7 @@
                 <SpecificHeaderButton name="_blog" link="#" />
             </div>
             <SpecificHeaderButton name="contact-me" link="/contact-me" />
-        </header>
+        </div>
     </div>
 </template>
 

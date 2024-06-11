@@ -21,8 +21,10 @@ function toggleFocus(event) {
     document.querySelectorAll("#nav-link").forEach((link) => {
         link.classList.remove("border-b-orangeAcentColor");
         link.classList.remove("text-white");
+        link.classList.add("border-b-transparent");
     });
 
+    event.target.classList.remove("border-b-transparent");
     event.target.classList.add("border-b-orangeAcentColor");
     event.target.classList.add("text-white");
 }
@@ -47,15 +49,14 @@ const props = defineProps({
 const paddingClass = computed(() => {
     switch (props.size) {
         case "small":
-            return "py-2 px-4";
+            return "py-2 px-4 max-w-[4rem]";
         case "large":
             return "py-[0.71rem] px-32";
         default:
-            return "py-[0.71rem] px-8";
+            return "py-[0.71rem] px-8 max-w-[11rem]";
     }
 });
 </script>
 
 <style>
-/* Adicione qualquer estilo adicional aqui */
 </style>
