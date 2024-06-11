@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', 'remixicon/fonts/remixicon.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -15,6 +15,10 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap",
         },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css'
+        }
       ],
     },
   },
