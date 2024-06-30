@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-defaultBgColor">
+    <div class="bg-defaultBgColor cursor-pointer">
         <NuxtLink
             id="nav-link"
             @click="toggleFocus"
