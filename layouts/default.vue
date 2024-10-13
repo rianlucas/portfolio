@@ -1,7 +1,7 @@
 <template>
   <div class="bg-defaultBgColor font-mono min-h-screen">
     <header>
-        <LayoutHeader/>
+        <Header/>
     </header>
 
     <main class="flex-grow mt-16">
