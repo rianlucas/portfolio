@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-defaultBgColor font-mono min-h-screen">
+  <div class="bg-defaultBgColor font-mono min-h-screen flex flex-col">
     <header>
         <Header/>
     </header>
 
-    <main class="flex-grow mt-16">
+    <main class=" flex flex-1 items-center justify-center flex-grow mt-16">
         <slot />
     </main>
 
